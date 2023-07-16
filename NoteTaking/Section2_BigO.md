@@ -24,3 +24,20 @@
 - 숫자 8개를 정렬한다고 했을 때 1을 찾는다면 반씩 쪼개서 3번만에 찾아짐. 즉 2^3 이고 이건 log2의 8은 3임
 - very flat, very efficient
 - nlogn은 sorting 알고리즘 때 배울 예정
+
+# 함수에 인자가 2개일 때
+- function sum(a, b) 이고 각 a 와 b에 대한 for loop가 있을 때 O(a+b) 이다.
+- 이중 for loop면 O(a*b)
+
+# List 에서의 시간복잡도
+- n개의 리스트에서 끝에 있는걸 넣고 빼는건 O(1), 맨 앞에 있는걸 넣고 빼는건 결국 re indexing 해야하므로 O(n)
+- 중간에 있는걸 넣고 빼는건 O(n)
+- 중간에 넣고 빼는건 1/2 n 아니냐고 할 수도 있지만 Bin O 는 평균 케이스가 아닌 worst 케이스를 다룸 
+- 그리고 중간에 넣고 빼는건 1/2 n 이라고 하더라도 결국 1/2가 상수이기 떄문에 drop
+
+# n의 시간복잡도
+- O(n^2) : Loop within a Loop
+- O(n) : Proportional
+- O(log n): Divide And Conquer
+- O(1) : Constant
+- https://www.bigocheatsheet.com/ 
