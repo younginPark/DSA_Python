@@ -41,3 +41,5 @@
 - O(log n): Divide And Conquer
 - O(1) : Constant
 - https://www.bigocheatsheet.com/ 
+- 공간 복잡도는 모든 자료구조에서 결국 동일해진다.
+- time complexity가 아주 좋으면 space complexity가 상대적으로 별로고 이와 반대일수도 있다.
